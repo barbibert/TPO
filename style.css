@@ -1,0 +1,359 @@
+body{
+    background: url(images/Captura.JPG) repeat;}
+
+*{
+    padding: 0px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+    color: white;
+    box-sizing: border-box;
+            
+}
+#contenedor{
+    width: 960px;;
+    height: auto;}
+
+/* /////ESTILO PARA CABECERA///// */
+
+header{
+    height: 180px;
+    background: url(images/head.jpg) no-repeat ;
+    background-size: cover;}
+h1{    
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: rgb(67, 67, 179);
+    text-shadow: 2px 2px 0px beige;
+    font-weight: bold;}
+h2{
+    float: left;
+    height: 30px;
+    font-size: 22px;
+    padding-left: 80px;
+    margin-top: 20px;
+    color: rgb(42, 119, 119);
+    font-weight: bold;
+    text-shadow: 1px 1px 0px beige;
+    background-color: rgb(255, 255, 255, 0.5) ;}
+#logo{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    float: right;
+    bottom: 45px;    
+    right: 60px;    }
+
+/* /////ESTILO PARA BOTONERA///// */
+
+#botonera{
+    height: 60px;
+    width: 960px;
+    border-top: 1px solid grey;
+    background: -webkit-linear-gradient(top, black, rgb(4, 4, 49));}
+#botonera ul{
+    display: inline;
+    list-style-type: none;
+    padding: 0;}
+.boton{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px white solid;
+    background: transparent;
+    border-radius: 10px 0px;
+    margin: 15px;
+    text-align: center;}
+.boton:hover {
+    background-color: #084679;
+    box-shadow: 0px 0px 10px blue ;}
+.boton a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: normal;}
+#nos {margin-left: 30px;}
+
+/* /////ESTILO PARA NOSOTROS///// */
+
+#nosotros{
+    height: 460px;
+    border-top: 1px solid grey;
+    background: -webkit-linear-gradient(top, rgb(4, 4, 49), rgb(1, 51, 68));}
+#foto_nosotros, #service{
+    width: 380px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 80px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px darkgrey;}
+#datos_nosotros{
+    float: left;
+    height: 550;
+    margin: 20px;}
+#datos_nosotros h3{width: 500px;
+    height:   45px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+    padding: 0;
+    font-size: 20px;}
+#datos_nosotros p{width: 500px; padding: 10px; font-size: 14px;padding: 0;}
+
+/* /////ESTILO PARA SERVICIOS///// */
+
+#servicios{
+    height: 650px;    
+    border-top: 1px solid grey;
+    background: -webkit-linear-gradient(bottom, rgb(4, 4, 49), rgb(1, 51, 68));}
+#servicios h2, #clientes h3, #clientes h2 {width: 960px;
+    height:   45px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: beige;
+    text-shadow: 2px 2px 0px black;
+    font-size: 20px;}
+
+    #texto{
+    width: 520px;
+    height: 520px;
+    float: left;
+    margin: 14px;}
+#texto h3{padding: 10px; font-size: 15px;}
+#texto ul, li{padding: 5px; font-size: 12px;}
+#service{
+    width: 360px;
+    height: 260px;
+    display: inline-block;
+    margin: 100px 25px;
+    }
+
+/* /////ESTILO PARA CLIENTES///// */
+
+#clientes{
+    border-top: 1px solid grey;
+    height: 750px;
+    background: -webkit-linear-gradient(top, rgb(4, 4, 49), rgb(1, 51, 68));
+}
+
+#clientes p, #clientes h4{
+    padding: 15px;
+    font-size: 12px;
+    column-width: 250px;
+    margin: 0;
+}
+
+/* /////ESTILO PARA MAPA///// */
+ 
+#ubicanos{height: 300px;width: 960px;
+    border-top: 1px solid grey;}
+
+
+/* /////ESTILO PARA FOOTER///// */
+    footer{
+        border-top: 1px solid grey;
+    height: 120px;
+    background: -webkit-linear-gradient(bottom, black, rgb(4, 4, 49)); }
+    .foot{
+    width: 220px;
+    height: 60px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: inline;}
+    footer h4 {display: inline;
+    float: left;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px;}
+    footer p {
+    display: inline-block;
+    color: grey;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 15px;
+    padding-left: 10px;
+    width: 180px;}
+    #derechos {display: block;
+        width: 100%;
+        margin-top: 15px;}
+    #derechos p{display: block; width: auto;
+        margin-top: 5px; margin-right: 5px;
+    position: relative; float: right;}
+
+    footer img{
+        float: left;
+        width: 30px;
+        height: 30px;}
+    #whatsapp{
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;}
+    #volver img{
+        width: 45px;
+        height: 45px;
+        float: left;
+        position: fixed;
+        bottom: 3%;
+        left: 3%; }
+    
+/* /////ESTILO PARA RESPONSIVE///// */
+@media all and (min-width: 600px) and (max-width: 1023px){
+    *, #contenedor, #nosotros, #servicios, #clientes, #ubicanos {
+        width: 580px; height: auto;
+    }
+
+    h1{font-size: 25px; width: auto;}
+    h2{font-size: 15px; width: auto;height: 20px;}
+    #logo{width: 70px; height: auto; margin-top: 40px;}
+
+    #botonera {width: 580px;}
+    .boton{width: 85px;
+    height: 25px;
+    margin: 15px;
+    margin-right: 0;}
+    #botonera ul li a {font-size: 12px;}
+    #derechos p {margin-top:25px;}
+    #nosotros{height: 360px;}
+    #foto_nosotros{width: 150px;height: auto;}
+    #datos_nosotros{width: 370px; height: auto;}
+    #datos_nosotros h3{width: 370px;font-size: 16px; }    
+    #datos_nosotros p{
+        width: 370px;
+        padding-left: 10px;
+        height: auto;
+        margin: 0;
+        font-size: 11px;}
+
+    #servicios{height: 750px;}
+    #servicios h2, #clientes h3, #clientes h2{width: 580px;
+        font-size: 16px;}
+
+    #texto{width: 300px; height: 300px; margin: 10px;}
+    #texto ul, #texto li, #texto h3{width: 300px; padding: 5px;
+        margin: 0; font-size: smaller;}
+    #service{width: 170px;
+        height: auto;
+        margin-top: 70px;
+        margin-bottom: 100px;}
+
+
+    .foot{width: 160px;height: 50px; margin: 0; margin-left: 20px;}
+    footer h4 {width: 130px; font-size: 15px;}
+    footer p {font-size: 15px;}
+    footer img{width: 20px;height: 20px;}
+    #whatsapp{width: 30px;height: 30px;}
+    #telefono{margin-left: 35px;}
+        
+    #volver img{
+        width: 30px;
+        height: 30px;}
+    }
+
+@media all and (max-width: 599px){
+        *, #contenedor, #nosotros, #servicios, #clientes, #ubicanos {
+            width: 98%; height: auto;}
+    
+        #header{height: 140px;}    
+        h1{font-size: 140%; width: 73%; padding: 3%; margin-left: 2%;}
+        h2{font-size: 68%; width: 74%; padding-left: 8%;height: 12%;}
+        #logo{width: 14%; float: right; height: auto; margin: 1%;}
+    
+        #botonera{width: 98%;height: auto;padding: 0%;background: transparent;}
+        #botonera ul{width: 98%; height: auto; padding: 0; margin:0;}
+        #botonera ul li{
+            height: auto;
+            width: 85%;
+            padding: 0px;
+            margin: 0px 10px;
+            float: none;
+            }
+            #nos {margin-left: 0px;}
+        .boton{width: 98%;
+            display: block;
+            height: 20px;
+            border: 1px white solid;
+            border-radius: 10px;
+            margin: 0px;
+            text-align: center;
+            background-color: rgb(4 4 49);}
+
+            #derechos p {margin-top:35px;}
+        .boton a{
+            font-size: 11px;
+            line-height: normal;
+        text-align: center;}
+        
+        #foto_nosotros{width: 70%;height: 50%; float: none;  margin: 3%; margin-left: 13%;}
+        #datos_nosotros{width: 95%; height: auto; float: none; margin: 0;}
+        #datos_nosotros h3{width: 95%;font-size: 95%; padding: 1%; }    
+        #datos_nosotros p{
+            width: 97%;
+            padding: 1%;
+            height: auto;
+            margin: 0;
+            font-size: 11px;
+            margin-left: 3%;
+            word-break: break-all;}
+    
+        #servicios h2, #clientes h3, #clientes h2{width: 98%;
+        font-size: 95%;}
+
+        #texto{width: 90%; height: auto; margin: 10px;}
+        #texto ul, #texto li, #texto h3{width: 98%; padding: 5px;
+            margin: 0; font-size: smaller;}
+        #service{width: 60%;
+            height: auto;
+            margin: 3%;
+            margin-left: 20%;
+            float: none;}
+    
+        .foot{width: 25%;height: 50px; margin: 0; margin-left: 2%;}
+        footer h4 {width: 25%; font-size: 70%; }
+        footer p {font-size: 55%;}
+        footer img{width: 20px;height: 20px;}
+        #whatsapp{width: 30px;height: 30px;}
+        #telefono{margin-left: 35px;}
+        p.card-text{width: 90%;}
+        div.card-body{width: auto;
+            height: auto;}
+        #volver img{
+            width: 25px;
+            height: 25px;}
+    }
+
+/* /////ESTILO PARA FORMULARIO///// */
+
+#form{background: -webkit-linear-gradient(bottom, rgb(4, 4, 49),rgb(1, 51, 68));}
+
+#dato_1.col-lg-8 {padding: 0%;}
+#dato_1 form{padding: 0;}
+#dato_1 h3{ text-shadow: 2px 2px 0px black; font-size: 20px; text-align: center; margin: 10px;}
+#dato_1 input.form-control{margin: 10px; padding: 0%; max-width: 96%;}
+#dato_1 textarea.form-control{margin: 10px;padding: 0%;max-width: 96%;}
+#dato_1 .form-select{margin: 10px;max-width: 96%;}
+#dato_1 .btn-primary{margin: 10px;max-width: 96%;}
+.option{color:rgb(1,51,68);}
+form select option {color:rgb(1,51,68) ;}
+
+#dato_2.col-lg-4 {padding: 10px; margin-top: auto; margin-bottom: auto;}
+.card{box-shadow: 5px 5px 2px darkgrey; max-width: 96%;}
+.card-body{width: 286px; height: auto;}
+p.card-text{font-size: 13px;font-weight: bold; color: rgb(1, 51, 68); width: auto;}
+
+
+.disclaimer{
+    display: none;
+}
