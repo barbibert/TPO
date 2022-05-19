@@ -28,7 +28,7 @@ h1{
     color: rgb(67, 67, 179);
     text-shadow: 2px 2px 0px beige;
     font-weight: bold;}
-h2{
+header h2{
     float: left;
     height: 30px;
     font-size: 22px;
@@ -216,7 +216,7 @@ h2{
     }
 
     h1{font-size: 25px; width: auto;}
-    h2{font-size: 15px; width: auto;height: 20px;}
+    header h2{font-size: 15px; width: auto;height: 20px;}
     #logo{width: 70px; height: auto; margin-top: 40px;}
 
     #botonera {width: 580px;}
@@ -268,7 +268,7 @@ h2{
     
         #header{height: 140px;}    
         h1{font-size: 140%; width: 73%; padding: 3%; margin-left: 2%;}
-        h2{font-size: 68%; width: 74%; padding-left: 8%;height: 12%;}
+        header h2{font-size: 68%; width: 74%; padding-left: 8%;height: 12%;}
         #logo{width: 14%; float: right; height: auto; margin: 1%;}
     
         #botonera{width: 98%;height: auto;padding: 0%;background: transparent;}
